@@ -49,9 +49,9 @@ class AkademikSeeder extends Seeder
 
         // 5. User & Dosen Pembimbing (Gunakan firstOrCreate agar aman dari Duplicate Entry)
         $userDosen = User::firstOrCreate(
-            ['email' => 'arifin@poliban.ac.id'],
+            ['email' => 'sri.rahayu@poliban.ac.id'],
             [
-                'name' => 'Arifin Noor Asyikin, M.T.',
+                'name' => 'Sri Rahayu, S.Kom., M.Kom',
                 'password' => Hash::make('password123'),
                 'role' => 'Dosen'
             ]
@@ -85,9 +85,9 @@ class AkademikSeeder extends Seeder
 
         // 7. User & Mahasiswa Dummy (Gunakan firstOrCreate agar aman dari Duplicate Entry)
         $userMhs = User::firstOrCreate(
-            ['email' => 'abiyyu.hasdiansyah@poliban.ac.id'],
+            ['email' => 'dian.pratama@poliban.ac.id'],
             [
-                'name' => 'Muhammad Abiyyu Hasdiansyah',
+                'name' => 'Dian Pratama',
                 'password' => Hash::make('password123'),
                 'role' => 'Mahasiswa'
             ]

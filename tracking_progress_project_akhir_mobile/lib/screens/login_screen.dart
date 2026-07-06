@@ -12,7 +12,7 @@ class LoginScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<LoginScreen> {
   final _formKey = GlobalKey<FormState>();
-  final _emailController = TextEditingController(text: 'abiyyu.hasdiansyah@poliban.ac.id');
+  final _emailController = TextEditingController(text: 'dian.pratama@poliban.ac.id');
   final _passwordController = TextEditingController(text: 'password123');
   bool _loading = false;
   String? _error;
