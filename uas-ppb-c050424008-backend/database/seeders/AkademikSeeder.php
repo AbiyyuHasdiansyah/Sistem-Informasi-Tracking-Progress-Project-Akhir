@@ -85,9 +85,9 @@ class AkademikSeeder extends Seeder
 
         // 7. User & Mahasiswa Dummy (Gunakan firstOrCreate agar aman dari Duplicate Entry)
         $userMhs = User::firstOrCreate(
-            ['email' => 'ahmaddani@poliban.ac.id'],
+            ['email' => 'abiyyu.hasdiansyah@poliban.ac.id'],
             [
-                'name' => 'Ahmad Dani',
+                'name' => 'Muhammad Abiyyu Hasdiansyah',
                 'password' => Hash::make('password123'),
                 'role' => 'Mahasiswa'
             ]
