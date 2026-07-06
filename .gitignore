@@ -1,0 +1,35 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# Laravel / PHP
+/uas-ppb-c050424008-backend/vendor/
+/uas-ppb-c050424008-backend/node_modules/
+/uas-ppb-c050424008-backend/public/hot
+/uas-ppb-c050424008-backend/storage/*.key
+/uas-ppb-c050424008-backend/.env
+/uas-ppb-c050424008-backend/storage/logs/
+/uas-ppb-c050424008-backend/storage/framework/
+/uas-ppb-c050424008-backend/bootstrap/cache/
+/uas-ppb-c050424008-backend/public/storage
+
+# Flutter / Dart
+/tracking_progress_project_akhir_mobile/build/
+/tracking_progress_project_akhir_mobile/.dart_tool/
+/tracking_progress_project_akhir_mobile/.flutter-plugins
+/tracking_progress_project_akhir_mobile/.flutter-plugins-dependencies
+/tracking_progress_project_akhir_mobile/.packages
+/tracking_progress_project_akhir_mobile/.pub-cache/
+/tracking_progress_project_akhir_mobile/android/.gradle/
+/tracking_progress_project_akhir_mobile/ios/Pods/
+/tracking_progress_project_akhir_mobile/macos/Pods/
+/tracking_progress_project_akhir_mobile/windows/flutter/ephemeral/
+/tracking_progress_project_akhir_mobile/linux/flutter/ephemeral/
+/tracking_progress_project_akhir_mobile/web/.dart_tool/
